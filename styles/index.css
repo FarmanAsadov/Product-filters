@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main .container {
+  box-shadow: 0 0 10px;
+  margin-top: 5rem;
+  border-radius: 8px;
+  padding: 10px;
+}
+.main .container .header {
+  border-bottom: 2px solid lightgray;
+}
+.main .container .header h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.main .container .header p {
+  font-size: 18px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+.main .container .header .btn {
+  background-color: transparent;
+  padding: 10px;
+  color: red;
+  font-weight: bold;
+  font-size: 17px;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+.main .container .center {
+  border-bottom: 2px solid lightgray;
+}
+.main .container .center ul {
+  list-style-type: none;
+}
+.main .container .center ul li {
+  margin: 8px 0;
+}
+.main .container .center ul li span {
+  letter-spacing: 2px;
+}
+.main .container .center span {
+  position: relative;
+  top: -2px;
+  left: 9%;
+  font-weight: 700;
+  background-color: red;
+  color: #fff;
+  padding: 5px 18px;
+  opacity: 0.7;
+}
+.main .container .footer ul {
+  list-style-type: none;
+}
+.main .container .footer ul li {
+  margin: 10px 0;
+}/*# sourceMappingURL=index.css.map */

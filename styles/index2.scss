@@ -1,0 +1,28 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.opacity {
+  opacity: 0.7;
+}
+
+.main {
+  .main__container {
+    .cards {
+      form {
+        width: 20%;
+        padding-bottom: 15px;
+        border-bottom: 1px solid lightgray;
+
+        .text {
+          font-size: 20px;
+          font-weight: 900;
+        }
+        .footer-text {
+          color: red;
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
